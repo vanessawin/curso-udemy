@@ -14,4 +14,9 @@
 
 Todos os projetos são bem divididos no uso das três tecnologias. Foco na semântica do HTML, desenvolver um bom design com recursos avançados do CSS3 e a lógica de cada aplicação com o Javascript.
 
+### O que você aprenderá
+* HTML5
+* Javascript
+* CSS3
+* Consumo de API
 [link para o curso](https://www.udemy.com/course/html5-css3-e-javascript-na-pratica-3-projetos/)
