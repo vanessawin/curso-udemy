@@ -4,6 +4,8 @@
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
 	text-decoration: none;
+	color: #fff;
+
 }
 header {
 	min-width: 9vh;
@@ -92,4 +94,105 @@ main form .password-container i {
 
 main form .password-container #eye {
 	display: none; /*para ficar invisivel por enquanto */
+}
+
+main form .password-info {
+	width: 90%;
+	margin-top: 3%;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+main form .password-info a{
+	transition: 0.2s ease-in-out;
+}
+
+main form .password-info a:hover {
+	color: #18acfe;
+}
+
+main form button {
+	background-color: #18acfe;
+	width: 90%;
+	height: 50px;
+	border: 0;
+	outline: 0; /* tira a borda que aparece quando clica */
+	border-radius: 12px;
+	margin-top: 10%;
+	font-size: 1.6em;
+	font-weight: 600; /*peso da font, engrossar a letra rsrs */
+	cursor: pointer;
+	transition: 0.4s ease-in-out; /* ease-in-out - especifica um efeito de transição com início e fim lentos */
+}
+
+main form button:hover{
+	background-color: #fff;	
+	color: #18acfe;
+}
+
+main form .links-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10%;
+}
+
+main form .links-container span {
+	font-size: 0.8em;
+	font-weight: 600;
+}
+
+main form .links-container aside {
+	margin-top: 5%;
+	width: 50%;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+main form .links-container aside i {
+	font-size: 1.6em; /*aumentando o tamanho dos icones importado*/
+	background-color: #fff;
+	padding: 8px;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px; /* se meus icones sao de lar e al 40 px dando border radius
+	 pela metade ou seja 20px os icones ficarao redondo */
+	transition: 0.3s ease-in-out;
+	color: #fff;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main form .links-container aside .google {
+	color: #e34133; /*cor do icone google */
+}
+
+main form .links-container aside .google:hover{
+	background-color: #e34133;
+	color: #fff;
+}
+
+main form .links-container aside .linkedin {
+	color: #0a66c2; /*cor do icone google */
+}
+
+main form .links-container aside .linkedin:hover{
+	background-color: #0a66c2;
+	color: #fff;
+}
+
+main form .links-container aside .facebook {
+	color: #14a0f9; /*cor do icone google */
+}
+
+main form .links-container aside .facebook:hover{
+	background-color: #14a0f9;
+	color: #fff;
 }
