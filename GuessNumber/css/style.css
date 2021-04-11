@@ -1,0 +1,53 @@
+/*Global */
+
+/*definir uma variavel para cor no css */
+
+:root {
+	--white: #fafafa;
+	--blue: #00348a;
+	--blue-light: #0bbbd6;
+}
+/* Variáveis ​​globais podem ser acessadas / usadas em todo o documento, 
+enquanto variáveis ​​locais podem ser usadas apenas dentro do seletor onde estão declaradas.
+Para criar uma variável com escopo global, declare-a dentro do :root seletor.
+ O :root seletor corresponde ao elemento raiz do documento.*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Ubuntu", sans-serif;
+	text-decoration: none;
+}
+
+/* header */
+
+header {
+	width: 100%;
+	text-align: center;
+	padding: 2rem;
+	box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.5);
+	background-color: var(--white); /* chamando a variavel global var(--white) */
+}
+header a h1 {
+	color: var(--blue);
+	font-size: 2.8rem;
+	font-weight: 300; /* peso da fonte */
+}
+/*apartando ctrl + ; cria o comentario rapido */
+
+/* container */
+
+.container {
+	border: 1;
+	width: 100%;
+	height: 85vh;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	background: linear-gradient(to right, #ddd, #eee, #ddd);
+
+
+}
